@@ -1,0 +1,16 @@
+@import "https://fonts.googleapis.com/css?family=Poppins";
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #fff;
+    color: #2c405e;
+    line-height: 1.7;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+
+/*--------- Section header -------------*/
