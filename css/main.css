@@ -14,3 +14,47 @@ body {
 
 
 /*--------- Section header -------------*/
+
+
+
+/*------------------------------------------------- Section services ---------------------------------------------------------------*/
+.servicesSection{
+
+    width: 90%;
+    margin: auto;
+ }
+.cardImage{
+    width: 90%;
+    padding-top: 9px;
+}
+.serviceCard{
+    width: 256px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 18px ;
+    -webkit-box-shadow: 3px 1px 14px 3px rgba(0,0,0,0.58); 
+    box-shadow: 3px 1px 14px 3px rgba(0,0,0,0.58);
+}
+.card-body :hover{
+    transform: scaleX(1.1);
+    transition: 1s ease-in-out;
+}
+
+.serviceCard,.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.serviceContainer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 12px;
+}
+@media (max-width: 579px){
+    .serviceCard{
+        width: 300px;
+    }
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
